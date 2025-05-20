@@ -1,0 +1,7 @@
+bai5.c:28:6:delay	24	static
+bai5.c:32:6:GPIO_Set	16	static
+bai5.c:40:9:Button_Read	16	static
+bai5.c:44:6:GPIO_Init_All	16	static
+bai5.c:81:6:Blink	32	static
+bai5.c:90:6:Beep_Once	8	static
+bai5.c:96:5:main	16	static
