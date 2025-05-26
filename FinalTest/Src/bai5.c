@@ -98,13 +98,13 @@ int main(void) {
 
     // Nháy LED BLUE một lần báo nguồn
     GPIO_Set(LED_BLUE_PORT, LED_BLUE_PIN, GPIO_PIN_SET);
-        GPIO_Set(LED3_BLUE_PORT, LED3_BLUE_PIN, GPIO_PIN_SET);
+    
 
         // Nháy LED BLUE một lần báo nguồn
         Blink(LED_BLUE_PORT, LED_BLUE_PIN, 1);
-        Blink(LED3_BLUE_PORT, LED3_BLUE_PIN, 1);
-    // Thử nháy LED3_BLUE (PA3) để kiểm tra phần cứng
-    Blink(LED3_BLUE_PORT, LED3_BLUE_PIN, 1);
+     
+ 
+
 
     uint8_t B2_last = 1;
     uint8_t B5_last = 1;
